@@ -37,7 +37,7 @@ const Home = () => {
       <ShowBalacnce balance={balance} />
       <IncomeExpense income={income} expense={expense} />
       <History deleteTask={deleteTask} transactions={trans} />
-      <h3><button style={{width: "100%", fontSize:"1.5rem", backgroundColor:"transparent", border:"none", marginLeft:"-10%", fontWeight:"bold", marginLeft:"-17%", cursor:"pointer" }} onClick={() => setShowTransButton((prevState) => !prevState)}>
+      <h3><button style={{width: "100%", fontSize:"1.5rem", backgroundColor:"transparent", border:"none", fontWeight:"bold", marginLeft:"-17%", cursor:"pointer" }} onClick={() => setShowTransButton((prevState) => !prevState)}>
         Add new transaction
       </button></h3>
 
